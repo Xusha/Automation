@@ -1,0 +1,53 @@
+<acceptance-test-run title="Success create delegate user" name="success_create_delegateUser" steps="7" successful="7" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="9458" timestamp="2016-08-09T17:01:32.056+03:00" session-id="8b349d75def5257abeac00cafa63e385">
+  <user-story id="qe.registration.DelegateRegisterTest" name="Delegate register test" path="qe.registration"/>
+  <tags>
+    <tag name="Delegate register test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="3152">
+    <screenshots>
+      <screenshot image="ca00d2c45b654223628f427375fab315.png"/>
+    </screenshots>
+    <description>Go to delegate register page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="731">
+    <screenshots>
+      <screenshot image="c1555d738513a2c3ab70642dc3d42120.png"/>
+      <screenshot image="2d5b34780b87893eb7920db69cc9e0af.png"/>
+    </screenshots>
+    <description>Enters first name: &lt;span class=&apos;step-parameter&apos;&gt;FirstName&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="353">
+    <screenshots>
+      <screenshot image="8353f360702d9eadc0f7521786002cd2.png"/>
+      <screenshot image="a2c08f0afe34b181be59c3e05d08905d.png"/>
+    </screenshots>
+    <description>Enters second name: &lt;span class=&apos;step-parameter&apos;&gt;SecondName&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="443">
+    <screenshots>
+      <screenshot image="8d3cc8484cdc252229cdb1ae721b57cb.png"/>
+      <screenshot image="e792c9cf5b24804f134282959c265f77.png"/>
+    </screenshots>
+    <description>Enters email: &lt;span class=&apos;step-parameter&apos;&gt;testuser6tesuser6test0user6tes@gmail.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="474">
+    <screenshots>
+      <screenshot image="5f2d4a928301cbd3465f35c18c8f31f1.png"/>
+      <screenshot image="e1a39dcd9bb4e1cd168f12f4f30d478d.png"/>
+    </screenshots>
+    <description>Ticks terms</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="536">
+    <screenshots>
+      <screenshot image="eb15e0ab92a530968957ea9cf93e2d9a.png"/>
+      <screenshot image="5c2e2893b89197a035273124080137d9.png"/>
+    </screenshots>
+    <description>Ticks privacy</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1009">
+    <screenshots>
+      <screenshot image="4b0aac0fae3f6fc2c4dcf3107fb5c844.png"/>
+    </screenshots>
+    <description>Clicks register</description>
+  </test-step>
+</acceptance-test-run>

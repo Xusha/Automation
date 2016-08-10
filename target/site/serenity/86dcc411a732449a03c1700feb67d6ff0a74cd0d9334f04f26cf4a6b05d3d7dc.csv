@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search by keyword story","Searching by keyword apple should display the corresponding article","SUCCESS","2016-06-09T19:56:23.481+03:00","0.0","19.36"
+"Search by keyword story","Searching by keyword banana should display the corresponding article","SUCCESS","2016-06-09T19:55:44.623+03:00","0.0","38.65"

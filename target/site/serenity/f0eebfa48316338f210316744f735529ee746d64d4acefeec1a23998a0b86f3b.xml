@@ -1,0 +1,33 @@
+<acceptance-test-run title="Success account activation" name="success_account_activation" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10416" timestamp="2016-08-09T16:43:09.956+03:00" session-id="77d6ce0f5223dde991cdd86f5e6a00e6">
+  <user-story id="qe.registration.AccountActivationTest" name="Account activation test" path="qe.registration"/>
+  <tags>
+    <tag name="Account activation test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="4388">
+    <screenshots>
+      <screenshot image="33c1be49e33ae218ca531416ec15ed37.png"/>
+    </screenshots>
+    <description>Goes to account activation page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2293">
+    <screenshots>
+      <screenshot image="cbe1fc27d9d2600bb4f8c7dbcb36013a.png"/>
+      <screenshot image="124181da015a7b60249d9d2705785eca.png"/>
+    </screenshots>
+    <description>Enters first password: &lt;span class=&apos;step-parameter&apos;&gt;test1234&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="833">
+    <screenshots>
+      <screenshot image="fe6c97948667bc2ee776eef11e3b1b7e.png"/>
+      <screenshot image="e7b6dcabdfb54f0a39a9f3da82cc7b65.png"/>
+    </screenshots>
+    <description>Enters second password: &lt;span class=&apos;step-parameter&apos;&gt;test1234&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1472">
+    <screenshots>
+      <screenshot image="bcd2f67a3a59a57fa46f14748def4fce.png"/>
+      <screenshot image="49406c29ffe06425604ab1743df791a2.png"/>
+    </screenshots>
+    <description>Clicks activate</description>
+  </test-step>
+</acceptance-test-run>

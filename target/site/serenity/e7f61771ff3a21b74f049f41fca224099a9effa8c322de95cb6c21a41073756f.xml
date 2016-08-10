@@ -1,0 +1,64 @@
+<acceptance-test-run title="Create issue" name="create_issue" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="34830" timestamp="2016-06-09T19:57:06.391+03:00" session-id="934d2c8a-501b-42a4-ac8b-49776aafcfd1">
+  <user-story id="qe.features.search.CreateIssueTest" name="Create issue test" path="qe.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Create issue test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="12282">
+    <screenshots>
+      <screenshot image="2a659eefee36932ca4d288335642816a.png"/>
+    </screenshots>
+    <description>Go to login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1208">
+    <screenshots>
+      <screenshot image="d8ecc792370737a62a958c4439d5e2aa.png"/>
+    </screenshots>
+    <description>Enter user name: &lt;span class=&apos;step-parameter&apos;&gt;xusha.losen&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="459">
+    <screenshots>
+      <screenshot image="9be925afdaa2ad22780e3ffe152cd3e2.png"/>
+    </screenshots>
+    <description>Enter user password: &lt;span class=&apos;step-parameter&apos;&gt;xusha.losen&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="10326">
+    <screenshots>
+      <screenshot image="91d6a781f646dc8f2862b32028f9e92c.png"/>
+    </screenshots>
+    <description>Click login</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1902">
+    <screenshots>
+      <screenshot image="75e2498561a1fcf6dd16bd1ea78406dd.png"/>
+      <screenshot image="b368b589cb8f4aacd072a82b2415c009.png"/>
+    </screenshots>
+    <description>Verify is on dash board page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1990">
+    <screenshots>
+      <screenshot image="464d44d26de590e470831eeaff93eedc.png"/>
+    </screenshots>
+    <description>Cliks on create new issue</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3009">
+    <screenshots>
+      <screenshot image="bc38667ee117a05fc6ce34e613cb5d5d.png"/>
+      <screenshot image="10c5d8fde6f23484d2eb0addbd578442.png"/>
+    </screenshots>
+    <description>Enter issue type: &lt;span class=&apos;step-parameter&apos;&gt;Bug&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1331">
+    <screenshots>
+      <screenshot image="204c6c8f84d3884b153f9f298db3a9ed.png"/>
+    </screenshots>
+    <description>Enter summary: &lt;span class=&apos;step-parameter&apos;&gt;Ksusha summary&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1925">
+    <screenshots>
+      <screenshot image="0cae5e561a8e3667a72a84dd1914a3a6.png"/>
+    </screenshots>
+    <description>Clicks on submit</description>
+  </test-step>
+</acceptance-test-run>

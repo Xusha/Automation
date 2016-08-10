@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+    <meta charset="utf-8" />
+    <meta content="ie=edge" http-equiv="x-ua-compatible" />
+    <title>Signup</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+         <!-- Links to fonts from the Google Fonts -->
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:600,400,300,700&amp;subset=cyrillic" />
+
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://winda-staging.s3.amazonaws.com:443/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" rel="stylesheet" />
+        <link href="https://winda-staging.s3.amazonaws.com:443/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://winda-staging.s3.amazonaws.com:443/bower_components/datatables.net-dt/css/jquery.dataTables.min.css" rel="stylesheet" />
+        <link href="https://winda-staging.s3.amazonaws.com:443/bower_components/datatables.net-responsive-dt/css/responsive.dataTables.min.css" rel="stylesheet" />
+
+        <!-- Your stuff: Third-party css libraries go here -->
+
+        <!-- This file store project specific CSS -->
+        <link rel="stylesheet" href="https://winda-staging.s3.amazonaws.com:443/css/main.css" />
+    
+
+</head>
+
+<body>
+
+
+<header class="header-main">
+    <div class="header-top">
+        <div class="container">
+            <a href="/" class="logo">
+                <img alt="winda" src="https://winda-staging.s3.amazonaws.com:443/images/logo.png" />
+            </a>
+            <span class="pull-right user-header">
+            </span>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button aria-expanded="false" data-target="#navbar-collapse" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div id="navbar-collapse" class="collapse navbar-collapse">
+                
+
+<ul class="nav navbar-nav text-center">
+    
+        <li>
+            <a href="/register/" class="nav-link active">Sign Up</a>
+        </li>
+        <li>
+            <a href="/login/" class="nav-link">Log In</a>
+        </li>
+        <li>
+            <a href="#" class="nav-link">About</a>
+        </li>
+    
+</ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+
+        <ol class="breadcrumb">
+            
+    
+                <li><a href="/">Home</a></li>
+            
+    <li><a href="/register/">Registration</a></li>
+    <li>Delegate Registration</li>
+
+        </ol>
+
+        
+
+        
+
+<div class="wrapper-form">
+    <h2>Sign Up</h2>
+    <form enctype="multipart/form-data" class="form-horizontal" action="#" method="post">
+        <input type="hidden" value="lBecZecN1A7aKcgqqyPxhptkUx8G5VUF" name="csrfmiddlewaretoken" />
+        <fieldset>
+            
+                
+                    <div class="form-group row">
+                        <label form="id_first_name" class="col-sm-3 control-label text-right">First name</label>
+                        <div class="col-sm-9">
+                            <input type="text" placeholder="First name" name="first_name" maxlength="30" id="id_first_name" class="form-control" />
+                            
+                            <div class="errors"></div>
+                        </div>
+                    </div>
+                
+            
+                
+                    <div class="form-group row">
+                        <label form="id_last_name" class="col-sm-3 control-label text-right">Last name</label>
+                        <div class="col-sm-9">
+                            <input type="text" placeholder="Last name" name="last_name" maxlength="30" id="id_last_name" class="form-control" />
+                            
+                            <div class="errors"></div>
+                        </div>
+                    </div>
+                
+            
+                
+                    <div class="form-group row">
+                        <label form="id_email" class="col-sm-3 control-label text-right">Email address</label>
+                        <div class="col-sm-9">
+                            <input type="email" placeholder="Email address" name="email" maxlength="254" id="id_email" class="form-control" />
+                            <p class="help-block"><strong class="text-orange">Important:</strong> Please provide your personal private email address. Don't use a work or shared email address.</p>
+                            <div class="errors"></div>
+                        </div>
+                    </div>
+                
+            
+                
+            
+                
+            
+        </fieldset>
+        
+
+        <div class="form-group block-center">
+        
+            
+        
+            
+        
+            
+        
+            
+            
+                <div class="checkbox">
+                    <label><input type="checkbox" name="terms" id="id_terms" /> <span class="check"></span> I accept the</label> <a href="">Terms and Conditions</a>
+                </div>
+            
+            <div class="errors"></div>
+            
+        
+            
+            
+                <div class="checkbox">
+                    <label><input type="checkbox" name="policy" id="id_policy" /> <span class="check"></span> I accept the</label> <a href="">Privacy policy</a>
+                </div>
+            
+            <div class="errors"></div>
+            
+        
+        </div>
+
+        
+
+        
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg text-uppercase">Registration</button>
+        </div>
+    </form>
+</div>
+
+
+    </div>
+    <!-- /container -->
+</main>
+
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+    <!-- jQuery -->
+    <script src="https://winda-staging.s3.amazonaws.com:443/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://winda-staging.s3.amazonaws.com:443/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://winda-staging.s3.amazonaws.com:443/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://winda-staging.s3.amazonaws.com:443/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="https://winda-staging.s3.amazonaws.com:443/bower_components/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+
+    <!-- place project specific Javascript in this file -->
+    <script src="https://winda-staging.s3.amazonaws.com:443/js/main.min.js"></script>
+
+
+
+</body><canvas id="fxdriver-screenshot-canvas" style="display: none;" width="1280" height="879"></canvas></html>

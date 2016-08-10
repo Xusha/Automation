@@ -1,0 +1,38 @@
+<acceptance-test-run title="Successfully login" name="successfully_login" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="18822" timestamp="2016-06-09T19:56:46.449+03:00" session-id="c22ba7c2-604f-4e77-88dc-c7f2319c129e">
+  <user-story id="qe.features.search.LoginTest" name="Login test" path="qe.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Login test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="10134">
+    <screenshots>
+      <screenshot image="2a659eefee36932ca4d288335642816a.png"/>
+    </screenshots>
+    <description>Go to login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1220">
+    <screenshots>
+      <screenshot image="d8ecc792370737a62a958c4439d5e2aa.png"/>
+    </screenshots>
+    <description>Enter user name: &lt;span class=&apos;step-parameter&apos;&gt;xusha.losen&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="552">
+    <screenshots>
+      <screenshot image="9be925afdaa2ad22780e3ffe152cd3e2.png"/>
+    </screenshots>
+    <description>Enter user password: &lt;span class=&apos;step-parameter&apos;&gt;xusha.losen&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5968">
+    <screenshots>
+      <screenshot image="4a3325222a1db49442df5cec1cc515e2.png"/>
+    </screenshots>
+    <description>Click login</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="906">
+    <screenshots>
+      <screenshot image="db5c18077ab58174fff9163dcda59535.png"/>
+    </screenshots>
+    <description>Verify is on dash board page</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="qe.registration.DelegateRegisterTest" skipped="0" tests="1" time="0.85" timestamp="2016-08-218 02:01:10"><testcase classname="qe.registration.DelegateRegisterTest" name="Success account activation"><error type="java.lang.NullPointerException"/><system-err>null
+qe.registration.DelegateRegisterTest.success_account_activation(DelegateRegisterTest.java:50)
+</system-err></testcase></testsuite>

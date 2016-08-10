@@ -1,0 +1,38 @@
+<acceptance-test-run title="Searching by keyword banana should display the corresponding article" name="searching_by_keyword_banana_should_display_the_corresponding_article" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="38647" timestamp="2016-06-09T19:55:44.623+03:00" session-id="7872b16d-15a8-4106-94b8-b7c83d82034f">
+  <user-story id="qe.features.search.SearchByKeywordStory" name="Search by keyword story" path="qe.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="23733">
+    <screenshots>
+      <screenshot image="28460ef584725bb5b1f19cecd53caaf1.png"/>
+    </screenshots>
+    <description>Is the home page</description>
+  </test-step>
+  <test-group name="Looks for: &lt;span class=&apos;step-parameter&apos;&gt;pear&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d7aeb35574bfb22e6b398cbf83bdb6b9.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3731">
+      <screenshots>
+        <screenshot image="28e005f206cb56f7721c3455eb2ad00e.png"/>
+      </screenshots>
+      <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;pear&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5807">
+      <screenshots>
+        <screenshot image="28e005f206cb56f7721c3455eb2ad00e.png"/>
+        <screenshot image="4458144437506884984bc6eb2b65764e.png"/>
+      </screenshots>
+      <description>Starts search</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="1856">
+    <screenshots>
+      <screenshot image="d7aeb35574bfb22e6b398cbf83bdb6b9.png"/>
+    </screenshots>
+    <description>Should see definition: &lt;span class=&apos;step-parameter&apos;&gt;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

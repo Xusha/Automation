@@ -1,0 +1,11 @@
+/home/alexey/IdeaProjects/lr16/src/test/java/qe/pages/DictionaryPage.java
+/home/alexey/IdeaProjects/lr16/src/test/java/qe/steps/serenity/EndUserSteps.java
+/home/alexey/IdeaProjects/lr16/src/test/java/qe/pages/CreateIssuePage.java
+/home/alexey/IdeaProjects/lr16/src/test/java/qe/steps/serenity/LoginPageUser.java
+/home/alexey/IdeaProjects/lr16/src/test/java/qe/features/search/SearchByKeywordStory.java
+/home/alexey/IdeaProjects/lr16/src/test/java/qe/pages/DashboardPage.java
+/home/alexey/IdeaProjects/lr16/src/test/java/qe/pages/HeaderPage.java
+/home/alexey/IdeaProjects/lr16/src/test/java/qe/pages/LoginPage.java
+/home/alexey/IdeaProjects/lr16/src/test/java/qe/features/search/LoginTest.java
+/home/alexey/IdeaProjects/lr16/src/test/java/qe/steps/serenity/DashboardUser.java
+/home/alexey/IdeaProjects/lr16/src/test/java/qe/features/search/CreateIssueTest.java

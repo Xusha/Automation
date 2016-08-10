@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: qe.features.search.CreateIssueTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.462 sec - in qe.features.search.CreateIssueTest

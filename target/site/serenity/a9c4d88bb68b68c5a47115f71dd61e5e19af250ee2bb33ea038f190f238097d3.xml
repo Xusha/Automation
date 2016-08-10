@@ -1,0 +1,79 @@
+<acceptance-test-run title="Success account activation" name="success_account_activation" steps="11" successful="8" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="28270" timestamp="2016-08-09T17:37:34.063+03:00" session-id="ad10a18ae64b2104b12972b4b0bca8d5">
+  <user-story id="qe.registration.GmailActivationTest" name="Gmail activation test" path="qe.registration"/>
+  <tags>
+    <tag name="Gmail activation test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7355">
+    <screenshots>
+      <screenshot image="1082919fa596af478d2e868cacc78587.png"/>
+    </screenshots>
+    <description>Goes to gmail page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="424">
+    <screenshots>
+      <screenshot image="b00814b28cfdef4389da94e84070c239.png"/>
+    </screenshots>
+    <description>Enters username: &lt;span class=&apos;step-parameter&apos;&gt;testuser6tesuser6test0user6tes@gmail.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="429">
+    <screenshots>
+      <screenshot image="ca296fc9d649355ad5e51c78740e4fc1.png"/>
+    </screenshots>
+    <description>Clicks next</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="359">
+    <screenshots>
+      <screenshot image="16fb62ecbcf9ec236fbd10c8c8b55670.png"/>
+      <screenshot image="2fe471cc3fb35056693833709c462939.png"/>
+    </screenshots>
+    <description>Enters password: &lt;span class=&apos;step-parameter&apos;&gt;steelkiwi12&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7806">
+    <screenshots>
+      <screenshot image="7046ed2e06779016b5bf93373edb3708.png"/>
+      <screenshot image="26eaa51ccecd69068015c2c0229f49e9.png"/>
+    </screenshots>
+    <description>Clicks sign in</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1172">
+    <screenshots>
+      <screenshot image="607813c2c9b17bca587544347ad3e381.png"/>
+    </screenshots>
+    <description>Opens email</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="611">
+    <screenshots>
+      <screenshot image="9227b7a72a20400b6d32101004052d56.png"/>
+    </screenshots>
+    <description>Gets activation link</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="588">
+    <screenshots>
+      <screenshot image="9227b7a72a20400b6d32101004052d56.png"/>
+    </screenshots>
+    <description>Clicks on link</description>
+  </test-step>
+  <test-step result="ERROR" duration="1562">
+    <screenshots>
+      <screenshot image="b2046264ecc1dc7329bf215e3dfcce03.png" source="pagesource7007363511922533704.html.txt"/>
+    </screenshots>
+    <description>Enters first password: &lt;span class=&apos;step-parameter&apos;&gt;test1234&lt;/span&gt;</description>
+    <error>org.openqa.selenium.NoSuchElementException: Timed out after 0 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;oksana-skd&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.19.0-64-generic&apos;, java.version: &apos;1.7.0_101&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.NoSuchElementException:Timed out after 0 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;oksana-skd&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.19.0-64-generic&apos;, java.version: &apos;1.7.0_101&apos;
+Driver info: driver.version: unknown
+[qe.pages.AccountActivationPage.enterFirstPassword(AccountActivationPage.java:21), qe.steps.serenity.AccountActivationPageUser.entersFirstPassword(AccountActivationPageUser.java:19), qe.registration.GmailActivationTest.success_account_activation(GmailActivationTest.java:60)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>Enters second password: &lt;span class=&apos;step-parameter&apos;&gt;test1234&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Clicks activate</description>
+  </test-step>
+</acceptance-test-run>
